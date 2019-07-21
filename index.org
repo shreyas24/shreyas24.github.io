@@ -23,6 +23,7 @@ My research interests are in Theoretical Computer Science, more specifically in 
    Links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages
    - A Constant Approximation for Colorful k-Center
      - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
+     - ESA 2019
    - Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]]
      - with Sriram Pemmaraju
      - PODC 2019 (Brief Announcement)
