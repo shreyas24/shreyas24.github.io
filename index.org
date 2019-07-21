@@ -1,0 +1,44 @@
+#+TITLE:Shreyas Pai
+#+AUTHOR:Shreyas Pai
+#+EMAIL:
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:t ^:t arch:headline
+#+OPTIONS: author:t c:nil d:(not "LOGBOOK") title:t
+#+OPTIONS: e:nil email:nil f:nil inline:t num:0 p:nil pri:nil
+#+OPTIONS: tags:nil tasks:nil tex:t timestamp:t toc:nil todo:nil |:t
+#+OPTIONS: texht:t creator:t
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS: export
+#+KEYWORDS:
+#+LANGUAGE: en
+
+#+ATTR_HTML: :alt There should be a picture of me here... :title Shreyas
+[[./img/me.jpg]]
+
+I am a third year PhD student in the [[http://www.cs.uiowa.edu/][Department of Computer Science]] at [[http://uiowa.edu][The University of Iowa]]. My advisor is Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]].
+
+
+My research interests are in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, Combinatorial Optimization, and Algorithmic Game Theory
+** Papers 
+   Links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages
+   - A Constant Approximation for Colorful k-Center
+     - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
+   - Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]]
+     - with Sriram Pemmaraju
+     - PODC 2019 (Brief Announcement)
+   - Large-Scale Distributed Algorithms for Facility Location with Outliers [[[https://arxiv.org/abs/1811.06494][paper]]]
+     - with Tanmay Inamdar, and Sriram Pemmaraju
+     - OPODIS 2018
+   - Near Optimal Clustering in the \(k\)-machine model [[[https://arxiv.org/abs/1710.08381][paper]]]
+     - with Sayan Bandyapadhyay, Tanmay Inamdar, and Sriram Pemmaraju
+     - ICDCN 2018
+   - Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][paper]]]
+     - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
+     - PODC 2017 (Brief Announcement) and DISC 2017
+** Teaching
+   - Spring 2017: Instructor for [[http://homepage.cs.uiowa.edu/~sriram/3330/spring17/][CS:3330 Algorithms, Section 2]]
+   - Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
+** Contact
+   Email: shreyas-pai@uiowa.edu
+   Office: 101C, MacLean Hall, Iowa City, IA 52242-1419
+ 
