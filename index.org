@@ -17,10 +17,11 @@
 
 I am a third year PhD student in the [[http://www.cs.uiowa.edu/][Department of Computer Science]] at [[http://uiowa.edu][The University of Iowa]]. My advisor is Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]].
 
-
 My research interests are in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, Combinatorial Optimization, and Algorithmic Game Theory
+
+Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
+
 ** Papers 
-   Links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages
    - A Constant Approximation for Colorful k-Center
      - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
      - ESA 2019
