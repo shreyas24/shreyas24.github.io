@@ -21,7 +21,7 @@ My research interests are in Theoretical Computer Science, more specifically in 
 
 Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
-** Papers 
+** Papers
    - A Constant Approximation for Colorful $k$-Center [[[https://arxiv.org/abs/1907.08906][paper]]]
      - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
      - ESA 2019
@@ -38,8 +38,9 @@ Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai
      - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
      - PODC 2017 (Brief Announcement) and DISC 2017
 ** Teaching
-   - Spring 2017: Instructor for [[http://homepage.cs.uiowa.edu/~sriram/3330/spring17/][CS:3330 Algorithms, Section 2]]
-   - Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
+- Spring 2020: TA for CS:4330 Theory of Computation
+- Spring 2017: Instructor for [[http://homepage.cs.uiowa.edu/~sriram/3330/spring17/][CS:3330 Algorithms, Section 2]]
+- Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
 ** Contact
    Email: shreyas-pai@uiowa.edu
    Office: 101C, MacLean Hall, Iowa City, IA 52242-1419

@@ -1,15 +1,15 @@
 ![img](./img/me.jpg)  
 
-I am a third year PhD student in the [Department of Computer Science](http://www.cs.uiowa.edu/) at [The University of Iowa](http://uiowa.edu). My advisor is Prof. [Sriram Pemmaraju](http://homepage.cs.uiowa.edu/~sriram).  
+I am a fourth year PhD student in the [Department of Computer Science](http://www.cs.uiowa.edu/) at [The University of Iowa](http://uiowa.edu). My advisor is Prof. [Sriram Pemmaraju](http://homepage.cs.uiowa.edu/~sriram).  
 
 My research interests are in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, Combinatorial Optimization, and Algorithmic Game Theory  
+
+Here is my [CV](./cv.pdf). And these are links to my [arXiv](https://arxiv.org/a/pai_s_2.html) and [dblp](https://dblp.org/pers/hd/p/Pai:Shreyas) pages.  
 
 
 # Papers
 
-Links to my [arXiv](https://arxiv.org/a/pai_s_2.html) and [dblp](https://dblp.org/pers/hd/p/Pai:Shreyas) pages  
-
--   A Constant Approximation for Colorful k-Center  
+-   A Constant Approximation for Colorful $k$-Center [[paper](https://arxiv.org/abs/1907.08906)]  
     -   with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
     -   ESA 2019
 -   Connectivity Lower Bounds in Broadcast Congested Clique [[paper](https://arxiv.org/abs/1905.09016)]  
@@ -28,6 +28,7 @@ Links to my [arXiv](https://arxiv.org/a/pai_s_2.html) and [dblp](https://dblp.or
 
 # Teaching
 
+-   Spring 2020: TA for CS:4330 Theory of Computation
 -   Spring 2017: Instructor for [CS:3330 Algorithms, Section 2](http://homepage.cs.uiowa.edu/~sriram/3330/spring17/)
 -   Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
 
