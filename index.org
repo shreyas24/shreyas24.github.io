@@ -12,7 +12,7 @@
 #+KEYWORDS:
 #+LANGUAGE: en
 
-#+ATTR_HTML: :alt There should be a picture of me here... :title Shreyas
+#+ATTR_HTML: :width 225px :alt There should be a picture of me here... :title Shreyas
 [[./img/me.jpg]]
 
 I am a fourth year PhD student in the [[http://www.cs.uiowa.edu/][Department of Computer Science]] at [[http://uiowa.edu][The University of Iowa]]. My advisor is Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]].
