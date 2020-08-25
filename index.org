@@ -28,7 +28,7 @@ Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai
    - Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection [[[https://doi.org/10.1017/ice.2019.350][paper]]]
      - with Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram Pemmaraju
      - Infection Control and Hospital Epidemiology 2019
-   - A Constant Approximation for Colorful $k$-Center [[[https://arxiv.org/abs/1907.08906][paper]]]
+   - A Constant Approximation for Colorful \(k\)-Center [[[https://arxiv.org/abs/1907.08906][paper]]]
      - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
      - ESA 2019
    - Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]]
