@@ -22,6 +22,9 @@ My research interests generally lie in Theoretical Computer Science, more specif
 Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
 ** Papers
+   - Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][paper]]]
+     - with Kishore Kothapalli and Sriram Pemmaraju
+     - FSTTCS 2020
    - Distributed Approximation on Power Graphs [[[https://arxiv.org/abs/2006.03746][paper]]]
      - with Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, and Sriram Pemmaraju
      - PODC 2020
@@ -33,7 +36,7 @@ Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai
      - ESA 2019
    - Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]]
      - with Sriram Pemmaraju
-     - PODC 2019 (Brief Announcement)
+     - PODC 2019 (Brief Announcement) and FSTTCS 2020
    - Large-Scale Distributed Algorithms for Facility Location with Outliers [[[https://arxiv.org/abs/1811.06494][paper]]]
      - with Tanmay Inamdar, and Sriram Pemmaraju
      - OPODIS 2018
