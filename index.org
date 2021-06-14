@@ -15,7 +15,7 @@
 #+ATTR_HTML: :width 225px :alt There should be a picture of me here... :title Shreyas
 [[./img/me.jpg]]
 
-I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]] in Spring 2021. I am joining as a postdoc in the [[https://research.cs.aalto.fi/theory/][Theory group]] at [[https://aalto.fi/en][Aalto University]] in Fall 2021.
+I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]] in Spring 2021. I am joining the [[https://research.cs.aalto.fi/theory/][Theory group]] at [[https://aalto.fi/en][Aalto University]] as a postdoc in Fall 2021.
 
 My research interests generally lie in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, and Combinatorial Optimization.
 
