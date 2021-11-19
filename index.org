@@ -15,7 +15,8 @@
 #+ATTR_HTML: :width 225px :alt There should be a picture of me here... :title Shreyas
 [[./img/me.jpg]]
 
-I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]] in Spring 2021. I am joining the [[https://research.cs.aalto.fi/theory/][Theory group]] at [[https://aalto.fi/en][Aalto University]] as a postdoc in Fall 2021.
+I am a postdoc in the [[https://research.cs.aalto.fi/theory/][Theory group]] at [[https://aalto.fi/en][Aalto University]] hosted by Prof. [[https://users.aalto.fi/~uittoj3/][Jara Uitto]].
+I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram Pemmaraju]] in Spring 2021.
 
 My research interests generally lie in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, and Combinatorial Optimization.
 
@@ -24,37 +25,42 @@ During my PhD, I was a research assistant in the [[https://vinci.cs.uiowa.edu/co
 Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
 ** Papers
-   1. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][paper]]]
+   1. Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases [[[https://gitmemory.cn/repo/HankyuJang/directed-PCST-asymptomatic-detection][code]]]
+      - Hankyu Jang, Shreyas Pai, Bijaya Adhikari, and Sriram Pemmaraju
+      - IEEE ICDM 2021 21st IEEE International Conference on Data Mining
+   2. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][paper]]]
       - with Gopal Pandurangan, Sriram Pemmaraju, and Peter Robinson
       - PODC 2021
-   2. Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][paper]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]]
+   3. Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][paper]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]]
       - with Kishore Kothapalli and Sriram Pemmaraju
       - FSTTCS 2020
-   3. Distributed Approximation on Power Graphs [[[https://arxiv.org/abs/2006.03746][paper]]] [[[https://www.youtube.com/watch?v=O0BqznC55MQ][video]]]
+   4. Distributed Approximation on Power Graphs [[[https://arxiv.org/abs/2006.03746][paper]]] [[[https://www.youtube.com/watch?v=O0BqznC55MQ][video]]]
       - with Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, and Sriram Pemmaraju
       - PODC 2020
-   4. Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection [[[https://doi.org/10.1017/ice.2019.350][paper]]]
-      - with Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram Pemmaraju
+   5. Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection [[[https://doi.org/10.1017/ice.2019.350][paper]]]
+      - Shreyas Pai, Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram Pemmaraju
       - Infection Control and Hospital Epidemiology 2019
-   5. A Constant Approximation for Colorful \(k\)-Center [[[https://arxiv.org/abs/1907.08906][paper]]]
+   6. A Constant Approximation for Colorful \(k\)-Center [[[https://arxiv.org/abs/1907.08906][paper]]]
       - with Sayan Bandyapadhyay, Tanmay Inamdar, and Kasturi Varadarajan
       - ESA 2019
-   6. Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]]
+   7. Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][paper]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]]
       - with Sriram Pemmaraju
       - PODC 2019 (Brief Announcement) and FSTTCS 2020
-   7. Large-Scale Distributed Algorithms for Facility Location with Outliers [[[https://arxiv.org/abs/1811.06494][paper]]]
+   8. Large-Scale Distributed Algorithms for Facility Location with Outliers [[[https://arxiv.org/abs/1811.06494][paper]]]
       - with Tanmay Inamdar, and Sriram Pemmaraju
       - OPODIS 2018
-   8. Near Optimal Clustering in the \(k\)-machine model [[[https://arxiv.org/abs/1710.08381][paper]]]
+   9. Near Optimal Clustering in the \(k\)-machine model [[[https://arxiv.org/abs/1710.08381][paper]]]
       - with Sayan Bandyapadhyay, Tanmay Inamdar, and Sriram Pemmaraju
       - ICDCN 2018
-   9. Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][paper]]]
-      - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
-      - PODC 2017 (Brief Announcement) and DISC 2017
+   10. Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][paper]]]
+       - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
+       - PODC 2017 (Brief Announcement) and DISC 2017
+Note: Publications where my name appears explicitly have author names by order of contribution. In the rest, the ordering is by last name.
 ** Teaching
+- Fall 2021: TA for CS-E3190 Principles of Algorithmic Techniques
 - Spring 2020: TA for CS:4330 Theory of Computation
 - Spring 2017: Instructor for [[http://homepage.cs.uiowa.edu/~sriram/3330/spring17/][CS:3330 Algorithms, Section 2]]
 - Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
 ** Contact
-   Email: shreyas-pai@uiowa.edu
-   # Office: 101C, MacLean Hall, Iowa City, IA 52242-1419 (good luck finding me here)
+   Email: shreyas.pai@aalto.fi
+   Office: B313, Konemiehentie 2, 02150 Espoo, Finland
