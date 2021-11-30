@@ -28,7 +28,7 @@ Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai
    1. Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases [[[https://gitmemory.cn/repo/HankyuJang/directed-PCST-asymptomatic-detection][code]]]
       - Hankyu Jang, Shreyas Pai, Bijaya Adhikari, and Sriram Pemmaraju
       - IEEE ICDM 2021 21st IEEE International Conference on Data Mining
-   2. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][paper]]]
+   2. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][paper]]] [[[https://www.youtube.com/watch?v=5VSDJ9qkV4E][video]]]
       - with Gopal Pandurangan, Sriram Pemmaraju, and Peter Robinson
       - PODC 2021
    3. Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][paper]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]]
