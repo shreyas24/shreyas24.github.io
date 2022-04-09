@@ -22,7 +22,7 @@ My research interests generally lie in Theoretical Computer Science, more specif
 
 During my PhD, I was a research assistant in the [[https://vinci.cs.uiowa.edu/compepi/][Computational Epidemiology Group]] where I worked on understanding and modeling the spread of Hospital Acquired Infections (see [[https://www.cdc.gov/hai/research/MIND-Healthcare.html][here]] for more information).
 
-Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
+Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And here are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
 ** Papers
    1. Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases [[[https://gitmemory.cn/repo/HankyuJang/directed-PCST-asymptomatic-detection][code]]]
@@ -51,7 +51,7 @@ Here is my [[./cv.pdf][CV]]. And these are links to my [[https://arxiv.org/a/pai
       - OPODIS 2018
    9. Near Optimal Clustering in the \(k\)-machine model [[[https://arxiv.org/abs/1710.08381][paper]]]
       - with Sayan Bandyapadhyay, Tanmay Inamdar, and Sriram Pemmaraju
-      - ICDCN 2018
+      - ICDCN 2018, TCS 2021
    10. Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][paper]]]
        - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
        - PODC 2017 (Brief Announcement) and DISC 2017
@@ -64,3 +64,6 @@ Note: Publications where my name appears explicitly have author names by order o
 ** Contact
    Email: shreyas.pai@aalto.fi
    Office: B313, Konemiehentie 2, 02150 Espoo, Finland
+
+#+ATTR_HTML: :width 300px :alt savesoil.org :title Save Soil
+[[./img/savesoil.png]]
