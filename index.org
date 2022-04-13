@@ -25,7 +25,7 @@ During my PhD, I was a research assistant in the [[https://vinci.cs.uiowa.edu/co
 Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And here are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
 ** Papers
-   1. Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases [[[https://gitmemory.cn/repo/HankyuJang/directed-PCST-asymptomatic-detection][code]]]
+   1. Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases [[[https://doi.org/10.1109/ICDM51629.2021.00034][paper]]] [[[https://github.com/HankyuJang/directed-PCST-asymptomatic-detection][code]]]
       - Hankyu Jang, Shreyas Pai, Bijaya Adhikari, and Sriram Pemmaraju
       - IEEE ICDM 2021 21st IEEE International Conference on Data Mining
    2. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][paper]]] [[[https://www.youtube.com/watch?v=5VSDJ9qkV4E][video]]]
