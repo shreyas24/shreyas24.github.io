@@ -6,6 +6,14 @@
 #+OPTIONS: e:nil email:nil f:nil inline:t num:0 p:nil pri:nil
 #+OPTIONS: tags:nil tasks:nil tex:t timestamp:t toc:nil todo:nil |:t
 #+OPTIONS: texht:t creator:t
+# #+HTML_HEAD: <style>
+# #+HTML_HEAD: body h2 ~ * {
+# #+HTML_HEAD: margin-left: 20px;
+# #+HTML_HEAD: }
+# #+HTML_HEAD: body h3 ~ * {
+# #+HTML_HEAD: margin-left: 10px;
+# #+HTML_HEAD: }
+# #+HTML_HEAD: </style>
 #+DESCRIPTION:
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS: export
@@ -26,22 +34,25 @@ Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][
 
 ** Conference Papers
 *** Distributed and Parallel Algorithms
-   1. Deterministic Massively Parallel Algorithms for Ruling Sets [[[http://arxiv.org/abs/2205.12686][arxiv]]]
+   1. Distributed Reconfiguration of Spanning Trees
+      - with Siddharth Gupta, and Manish Kumar
+      - to appear in International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS) 2022 (Brief Announcement)
+   2. Deterministic Massively Parallel Algorithms for Ruling Sets [[[http://arxiv.org/abs/2205.12686][arxiv]]]
       - with Sriram Pemmaraju
       - ACM Symposium on Principles of Distributed Computing (PODC) 2022 (Brief Announcement)
-   2. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][arxiv]]] [[[https://www.youtube.com/watch?v=5VSDJ9qkV4E][video]]]
+   3. Can we Break Symmetry with \(o(m)\) Communication? [[[https://arxiv.org/abs/2105.08917][arxiv]]] [[[https://www.youtube.com/watch?v=5VSDJ9qkV4E][video]]]
       - with Gopal Pandurangan, Sriram Pemmaraju, and Peter Robinson
       - ACM Symposium on Principles of Distributed Computing (PODC) 2021
-   3. Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][arxiv]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]]
+   4. Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model [[[http://arxiv.org/abs/2009.12477][arxiv]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]]
       - with Kishore Kothapalli and Sriram Pemmaraju
       - Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2020
-   4. Distributed Approximation on Power Graphs [[[https://arxiv.org/abs/2006.03746][arxiv]]] [[[https://www.youtube.com/watch?v=O0BqznC55MQ][video]]]
+   5. Distributed Approximation on Power Graphs [[[https://arxiv.org/abs/2006.03746][arxiv]]] [[[https://www.youtube.com/watch?v=O0BqznC55MQ][video]]]
       - with Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, and Sriram Pemmaraju
       - ACM Symposium on Principles of Distributed Computing (PODC) 2020
-   5. Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]]
+   6. Connectivity Lower Bounds in Broadcast Congested Clique [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]]
       - with Sriram Pemmaraju
       - ACM Symposium on Principles of Distributed Computing (PODC) 2019 (Brief Announcement) and Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2020
-   6. Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][arxiv]]]
+   7. Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets [[[https://arxiv.org/abs/1705.07861][arxiv]]]
       - with Gopal Pandurangan, Sriram Pemmaraju, Talal Riaz, and Peter Robinson
       - ACM Symposium on Principles of Distributed Computing (PODC) 2017 (Brief Announcement) and International Symposium on Distributed Computing (DISC) 2017
 *** Clustering
