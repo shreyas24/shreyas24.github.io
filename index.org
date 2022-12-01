@@ -50,13 +50,21 @@ Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][
 
 ** Conference Papers
 
+*** 2023
+#+ATTR_HTML: :class table table-bordered table-hover table-condensed
+|----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------|
+| Title                            | Authors                                                                                                                                                                    | Conference | Links   |
+| <30>                             | <20>                                                                                                                                                                       | <10>       | <10>    |
+|----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------|
+| Sinkless Orientation Made Simple | Alkida Balliu, Janne H. Korhonen, Fabian Kuhn, Henrik Lievonen, Dennis Olivetti, Shreyas Pai, Ami Paz, Joel Rybicki, Stefan Schmid, Jan Studený, Jukka Suomela, Jara Uitto | SOSA       | [[[http://arxiv.org/abs/2108.02655][arxiv]]] |
+|----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------|
 *** 2022
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |---------------------------------------------------------------------------------+--------------------------------------------+------------+---------|
 | Title                                                                           | Authors                                    | Conference | Links   |
 | <30>                                                                            | <20>                                       | <10>       | <10>    |
 |---------------------------------------------------------------------------------+--------------------------------------------+------------+---------|
-| Brief Announcement: Distributed Reconfiguration of Spanning Trees               | Siddharth Gupta, Manish Kumar, Shreyas Pai | SSS        |         |
+| Brief Announcement: Distributed Reconfiguration of Spanning Trees               | Siddharth Gupta, Manish Kumar, Shreyas Pai | SSS        | [[[http://arxiv.org/abs/2211.01725][arxiv]]] |
 | Brief Announcement: Deterministic Massively Parallel Algorithms for Ruling Sets | Shreyas Pai, Sriram V. Pemmaraju           | PODC       | [[[http://arxiv.org/abs/2205.12686][arxiv]]] |
 |---------------------------------------------------------------------------------+--------------------------------------------+------------+---------|
 *** 2021
@@ -75,7 +83,7 @@ Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][
 | <30>                                                                      | <20>                                                                                  | <10>       | <10>            |
 |---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------+-----------------|
 | Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model | Kishore Kothapalli, Shreyas Pai, Sriram V. Pemmaraju                                  | FSTTCS     | [[[http://arxiv.org/abs/2009.12477][arxiv]]] [[[https://www.youtube.com/watch?v=TJQb8XjpPC0][video]]] |
-| Connectivity Lower Bounds in Broadcast Congested Clique                   | Shreyas Pai Sriram V. Pemmaraju                                                       | FSTTCS     | [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]] |
+| Connectivity Lower Bounds in Broadcast Congested Clique                   | Shreyas Pai, Sriram V. Pemmaraju                                                      | FSTTCS     | [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]] |
 | Distributed Approximation on Power Graphs                                 | Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, Shreyas Pai, Sriram V. Pemmaraju | PODC       | [[[https://arxiv.org/abs/2006.03746][arxiv]]] [[[https://www.youtube.com/watch?v=O0BqznC55MQ][video]]] |
 |---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------+-----------------|
 *** 2019
@@ -86,7 +94,7 @@ Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][
 |----------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------+-----------------|
 | A Constant Approximation for Colorful \(k\)-Center                               | Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Kasturi Varadarajan               | ESA        | [[[https://arxiv.org/abs/1907.08906][arxiv]]]         |
 | Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection | Shreyas Pai, Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram V. Pemmaraju | ICHE       | [[[https://doi.org/10.1017/ice.2019.350][paper]]]         |
-| Brief Announcement: Connectivity Lower Bounds in Broadcast Congested Clique      | Shreyas Pai Sriram V. Pemmaraju                                                     | PODC       | [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]] |
+| Brief Announcement: Connectivity Lower Bounds in Broadcast Congested Clique      | Shreyas Pai, Sriram V. Pemmaraju                                                    | PODC       | [[[https://arxiv.org/abs/1905.09016][arxiv]]] [[[https://www.youtube.com/watch?v=e4Rflnmu0ho][video]]] |
 |----------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------+-----------------|
 *** 2018
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
