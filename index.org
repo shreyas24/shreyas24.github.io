@@ -40,7 +40,7 @@ table {
 I am a postdoctoral researcher in the [[https://research.cs.aalto.fi/theory/][Theory group]] at [[https://aalto.fi/en][Aalto University]] hosted by Prof. [[https://users.aalto.fi/~uittoj3/][Jara Uitto]].
 I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram V. Pemmaraju]] in Spring 2021.
 
-My research interests generally lie in Theoretical Computer Science, more specifically in Distributed Algorithms, Communication Complexity, and Combinatorial Optimization.
+My research interests are primarily in Theory of Distributed and Parallel Computing, more specifically in Distributed Graph Algorithms and Algorithms for Large Data. I am also more generally interested in topics in Theoretical Computer Science like Communication Complexity and Combinatorial Optimization.
 
 During my PhD, I worked as a research assistant in the [[https://vinci.cs.uiowa.edu/compepi/][Computational Epidemiology Group]] where we try to understand and model the spread of Hospital Acquired Infections (see [[https://www.cdc.gov/hai/research/MIND-Healthcare.html][here]] for more information).
 
