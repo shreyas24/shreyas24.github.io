@@ -1,225 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<!-- 2023-03-01 Wed 16:03 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Shreyas Pai (श्रेयस पै)</title>
-<meta name="author" content="Shreyas Pai" />
-<meta name="generator" content="Org Mode" />
+<!-- 2023-03-01 Wed 16:06 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Shreyas Pai">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <style>
-  #content { max-width: 60em; margin: auto; }
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
+/* org mode styles on top of twbs */
+
+html {
     position: relative;
-    overflow: auto;
-  }
-  pre.src:before {
-    display: none;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
     position: absolute;
-    top: -8px;
-    right: 12px;
-    padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
-  }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
-
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
+    bottom: 0;
     width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { }
-</style>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
+    height: 101px;
+    background-color: #f5f5f5;
+}
 
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script>
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
 });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayAlign: "center",
+  displayIndent: "2em",
+  messageStyle: "none",
+  "HTML-CSS": {
+    scale: 100,
+    styles: {
+      ".MathJax_Display": {
+        "font-size": "100%"
+      }
+    }
+  },
+  "SVG": {
+    scale: 100,
+    styles: {
+      ".MathJax_SVG_Display": {
+        "font-size": "100%",
+        "margin-left": "-2.281em"
+      }
+    }
+  }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
-<div id="content" class="content">
-<h1 class="title">Shreyas Pai (श्रेयस पै)</h1>
-<p width="225px" alt="There should be a picture of me here..." title="Shreyas">
-<img src="./img/me.jpg" alt="There should be a picture of me here..." width="225px" title="Shreyas" /><br />
+<div id="content" class="container">
+<div class="row"><div class="col-md-12"><h1 class="title">Shreyas Pai (श्रेयस पै)</h1>
+<p>
+<img src="./img/me.jpg" class="img-responsive" alt="There should be a picture of me here..." width="225px" title="Shreyas"><br >
 
 <style>
 table colgroup col:nth-child(1) {
@@ -241,452 +242,455 @@ table {
     border-color: #FFFFFF;
 }
 </style>
-<br />
-I am a postdoctoral researcher in the <a href="https://research.cs.aalto.fi/theory/">Theory group</a> at <a href="https://aalto.fi/en">Aalto University</a> hosted by Prof. <a href="https://users.aalto.fi/~uittoj3/">Jara Uitto</a>.<br />
-I received my PhD in Computer Science at <a href="http://uiowa.edu">The University of Iowa</a> under the supervision of Prof. <a href="http://homepage.cs.uiowa.edu/~sriram">Sriram V. Pemmaraju</a> in Spring 2021.<br />
+<br >
+I am a postdoctoral researcher in the <a href="https://research.cs.aalto.fi/theory/">Theory group</a> at <a href="https://aalto.fi/en">Aalto University</a> hosted by Prof. <a href="https://users.aalto.fi/~uittoj3/">Jara Uitto</a>.<br >
+I received my PhD in Computer Science at <a href="http://uiowa.edu">The University of Iowa</a> under the supervision of Prof. <a href="http://homepage.cs.uiowa.edu/~sriram">Sriram V. Pemmaraju</a> in Spring 2021.<br >
 </p>
 
 <p>
-My research interests are primarily in Theory of Distributed and Parallel Computing, more specifically in Distributed Graph Algorithms and Algorithms for Large Data. I am also more generally interested in topics in Theoretical Computer Science like Communication Complexity and Combinatorial Optimization.<br />
+My research interests are primarily in Theory of Distributed and Parallel Computing, more specifically in Distributed Graph Algorithms and Algorithms for Large Data. I am also more generally interested in topics in Theoretical Computer Science like Communication Complexity and Combinatorial Optimization.<br >
 </p>
 
 <p>
-During my PhD, I worked as a research assistant in the <a href="https://vinci.cs.uiowa.edu/compepi/">Computational Epidemiology Group</a> where we try to understand and model the spread of Hospital Acquired Infections (see <a href="https://www.cdc.gov/hai/research/MIND-Healthcare.html">here</a> for more information).<br />
+During my PhD, I worked as a research assistant in the <a href="https://vinci.cs.uiowa.edu/compepi/">Computational Epidemiology Group</a> where we try to understand and model the spread of Hospital Acquired Infections (see <a href="https://www.cdc.gov/hai/research/MIND-Healthcare.html">here</a> for more information).<br >
 </p>
 
 <p>
-Here is my <a href="./cv.pdf">CV</a>. My ORCID: <a href="https://orcid.org/0000-0003-2409-7807">0000-0003-2409-7807</a>. And here are links to my <a href="https://arxiv.org/a/pai_s_2.html">arXiv</a> and <a href="https://dblp.org/pers/hd/p/Pai:Shreyas">dblp</a> pages.<br />
+Here is my <a href="./cv.pdf">CV</a>. My ORCID: <a href="https://orcid.org/0000-0003-2409-7807">0000-0003-2409-7807</a>. And here are links to my <a href="https://arxiv.org/a/pai_s_2.html">arXiv</a> and <a href="https://dblp.org/pers/hd/p/Pai:Shreyas">dblp</a> pages.<br >
 </p>
 
 <p>
- <hr class="col-xs-12"><br />
+ <hr class="col-xs-12"><br >
 </p>
 
-<div id="outline-container-orgf3b4879" class="outline-2">
-<h2 id="orgf3b4879">Conference Papers</h2>
-<div class="outline-text-2" id="text-orgf3b4879">
-</div>
-<div id="outline-container-org40a87a1" class="outline-3">
-<h3 id="org40a87a1">2023</h3>
-<div class="outline-text-3" id="text-org40a87a1">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Conference Papers</h2>
+<div class="outline-text-2" id="text-">
+</div><div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2023</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Sinkless Orientation Made Simple</td>
-<td class="org-left">Alkida Balliu, Janne H. Korhonen, Fabian Kuhn, Henrik Lievonen, Dennis Olivetti, Shreyas Pai, Ami Paz, Joel Rybicki, Stefan Schmid, Jan Studený, Jukka Suomela, Jara Uitto</td>
-<td class="org-left">SOSA</td>
-<td class="org-left">[<a href="http://arxiv.org/abs/2108.02655">arxiv</a>]</td>
+<td class="text-left">Sinkless Orientation Made Simple</td>
+<td class="text-left">Alkida Balliu, Janne H. Korhonen, Fabian Kuhn, Henrik Lievonen, Dennis Olivetti, Shreyas Pai, Ami Paz, Joel Rybicki, Stefan Schmid, Jan Studený, Jukka Suomela, Jara Uitto</td>
+<td class="text-left">SOSA</td>
+<td class="text-left">[<a href="http://arxiv.org/abs/2108.02655">arxiv</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-orgc021458" class="outline-3">
-<h3 id="orgc021458">2022</h3>
-<div class="outline-text-3" id="text-orgc021458">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2022</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Brief Announcement: Distributed Reconfiguration of Spanning Trees</td>
-<td class="org-left">Siddharth Gupta, Manish Kumar, Shreyas Pai</td>
-<td class="org-left">SSS</td>
-<td class="org-left">[<a href="http://arxiv.org/abs/2211.01725">arxiv</a>]</td>
+<td class="text-left">Brief Announcement: Distributed Reconfiguration of Spanning Trees</td>
+<td class="text-left">Siddharth Gupta, Manish Kumar, Shreyas Pai</td>
+<td class="text-left">SSS</td>
+<td class="text-left">[<a href="http://arxiv.org/abs/2211.01725">arxiv</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Brief Announcement: Deterministic Massively Parallel Algorithms for Ruling Sets</td>
-<td class="org-left">Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">PODC</td>
-<td class="org-left">[<a href="http://arxiv.org/abs/2205.12686">arxiv</a>]</td>
+<td class="text-left">Brief Announcement: Deterministic Massively Parallel Algorithms for Ruling Sets</td>
+<td class="text-left">Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">PODC</td>
+<td class="text-left">[<a href="http://arxiv.org/abs/2205.12686">arxiv</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-orgaa4754a" class="outline-3">
-<h3 id="orgaa4754a">2021</h3>
-<div class="outline-text-3" id="text-orgaa4754a">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2021</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Can we Break Symmetry with \(o(m)\) Communication?</td>
-<td class="org-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, and Peter Robinson</td>
-<td class="org-left">PODC</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/2105.08917">arxiv</a>] [<a href="https://www.youtube.com/watch?v=5VSDJ9qkV4E">video</a>]</td>
+<td class="text-left">Can we Break Symmetry with \(o(m)\) Communication?</td>
+<td class="text-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, and Peter Robinson</td>
+<td class="text-left">PODC</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/2105.08917">arxiv</a>] [<a href="https://www.youtube.com/watch?v=5VSDJ9qkV4E">video</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases</td>
-<td class="org-left">Hankyu Jang, Shreyas Pai, Bijaya Adhikari, and Sriram V. Pemmaraju</td>
-<td class="org-left">ICDM</td>
-<td class="org-left">[<a href="https://doi.org/10.1109/ICDM51629.2021.00034">paper</a>] [<a href="https://github.com/HankyuJang/directed-PCST-asymptomatic-detection">code</a>]</td>
+<td class="text-left">Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases</td>
+<td class="text-left">Hankyu Jang, Shreyas Pai, Bijaya Adhikari, and Sriram V. Pemmaraju</td>
+<td class="text-left">ICDM</td>
+<td class="text-left">[<a href="https://doi.org/10.1109/ICDM51629.2021.00034">paper</a>] [<a href="https://github.com/HankyuJang/directed-PCST-asymptomatic-detection">code</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-org5c2741d" class="outline-3">
-<h3 id="org5c2741d">2020</h3>
-<div class="outline-text-3" id="text-org5c2741d">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2020</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model</td>
-<td class="org-left">Kishore Kothapalli, Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">FSTTCS</td>
-<td class="org-left">[<a href="http://arxiv.org/abs/2009.12477">arxiv</a>] [<a href="https://www.youtube.com/watch?v=TJQb8XjpPC0">video</a>]</td>
+<td class="text-left">Sample-and-Gather: Fast Ruling Set Algorithms in the Low-Memory MPC Model</td>
+<td class="text-left">Kishore Kothapalli, Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">FSTTCS</td>
+<td class="text-left">[<a href="http://arxiv.org/abs/2009.12477">arxiv</a>] [<a href="https://www.youtube.com/watch?v=TJQb8XjpPC0">video</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Connectivity Lower Bounds in Broadcast Congested Clique</td>
-<td class="org-left">Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">FSTTCS</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1905.09016">arxiv</a>] [<a href="https://www.youtube.com/watch?v=e4Rflnmu0ho">video</a>]</td>
+<td class="text-left">Connectivity Lower Bounds in Broadcast Congested Clique</td>
+<td class="text-left">Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">FSTTCS</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1905.09016">arxiv</a>] [<a href="https://www.youtube.com/watch?v=e4Rflnmu0ho">video</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Distributed Approximation on Power Graphs</td>
-<td class="org-left">Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">PODC</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/2006.03746">arxiv</a>] [<a href="https://www.youtube.com/watch?v=O0BqznC55MQ">video</a>]</td>
+<td class="text-left">Distributed Approximation on Power Graphs</td>
+<td class="text-left">Reuven Bar-Yehuda, Keren Censor-Hillel, Yannic Maus, Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">PODC</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/2006.03746">arxiv</a>] [<a href="https://www.youtube.com/watch?v=O0BqznC55MQ">video</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-orgc136088" class="outline-3">
-<h3 id="orgc136088">2019</h3>
-<div class="outline-text-3" id="text-orgc136088">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2019</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">A Constant Approximation for Colorful \(k\)-Center</td>
-<td class="org-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Kasturi Varadarajan</td>
-<td class="org-left">ESA</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1907.08906">arxiv</a>]</td>
+<td class="text-left">A Constant Approximation for Colorful \(k\)-Center</td>
+<td class="text-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Kasturi Varadarajan</td>
+<td class="text-left">ESA</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1907.08906">arxiv</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection</td>
-<td class="org-left">Shreyas Pai, Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram V. Pemmaraju</td>
-<td class="org-left">ICHE</td>
-<td class="org-left">[<a href="https://doi.org/10.1017/ice.2019.350">paper</a>]</td>
+<td class="text-left">Spatiotemporal  clustering  of  in-hospital  Clostridioides  difficile infection</td>
+<td class="text-left">Shreyas Pai, Philip Polgreen, Alberto Segre, Daniel Sewell, and Sriram V. Pemmaraju</td>
+<td class="text-left">ICHE</td>
+<td class="text-left">[<a href="https://doi.org/10.1017/ice.2019.350">paper</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Brief Announcement: Connectivity Lower Bounds in Broadcast Congested Clique</td>
-<td class="org-left">Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">PODC</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1905.09016">arxiv</a>] [<a href="https://www.youtube.com/watch?v=e4Rflnmu0ho">video</a>]</td>
+<td class="text-left">Brief Announcement: Connectivity Lower Bounds in Broadcast Congested Clique</td>
+<td class="text-left">Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">PODC</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1905.09016">arxiv</a>] [<a href="https://www.youtube.com/watch?v=e4Rflnmu0ho">video</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-orgaaf905e" class="outline-3">
-<h3 id="orgaaf905e">2018</h3>
-<div class="outline-text-3" id="text-orgaaf905e">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2018</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Large-Scale Distributed Algorithms for Facility Location with Outliers</td>
-<td class="org-left">Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">OPODIS</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1811.06494">arxiv</a>]</td>
+<td class="text-left">Large-Scale Distributed Algorithms for Facility Location with Outliers</td>
+<td class="text-left">Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">OPODIS</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1811.06494">arxiv</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Near Optimal Clustering in the \(k\)-machine model</td>
-<td class="org-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">ICDCN</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1710.08381">arxiv</a>]</td>
+<td class="text-left">Near Optimal Clustering in the \(k\)-machine model</td>
+<td class="text-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">ICDCN</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1710.08381">arxiv</a>]</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-org747c2a5" class="outline-3">
-<h3 id="org747c2a5">2017</h3>
-<div class="outline-text-3" id="text-org747c2a5">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">2017</h3>
+<div class="outline-text-3" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Conference</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Conference</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets</td>
-<td class="org-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Talal Riaz, Peter Robinson</td>
-<td class="org-left">DISC</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1705.07861">arxiv</a>]</td>
+<td class="text-left">Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets</td>
+<td class="text-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Talal Riaz, Peter Robinson</td>
+<td class="text-left">DISC</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1705.07861">arxiv</a>]</td>
 </tr>
 
 <tr>
-<td class="org-left">Brief Announcement: Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets</td>
-<td class="org-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Talal Riaz, Peter Robinson</td>
-<td class="org-left">PODC</td>
-<td class="org-left">[<a href="https://arxiv.org/abs/1705.07861">arxiv</a>]</td>
-</tr>
-</tbody>
-</table>
-<p>
- <hr class="col-xs-12"><br />
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-org40e1d4d" class="outline-2">
-<h2 id="org40e1d4d">Journal Papers</h2>
-<div class="outline-text-2" id="text-org40e1d4d">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Journal</th>
-<th scope="col" class="org-left">Year</th>
-<th scope="col" class="org-left">Links</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="org-left">Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases</td>
-<td class="org-left">Hankyu Jang, Shreyas Pai, Bijaya Adhikari, Sriram V. Pemmaraju</td>
-<td class="org-left">KAIS</td>
-<td class="org-left">2022</td>
-<td class="org-left">[<a href="https://doi.org/10.1007/s10115-022-01748-8">paper</a>] [<a href="https://github.com/HankyuJang/directed-PCST-asymptomatic-detection">code</a>]</td>
-</tr>
-
-<tr>
-<td class="org-left">Near Optimal Clustering in the \(k\)-machine model</td>
-<td class="org-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
-<td class="org-left">TCS</td>
-<td class="org-left">2021</td>
-<td class="org-left">[<a href="https://doi.org/10.1016/j.tcs.2021.11.026">paper</a>]</td>
+<td class="text-left">Brief Announcement: Symmetry Breaking in the Congest Model: Time– and Message–Efficient Algorithms for Ruling Sets</td>
+<td class="text-left">Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Talal Riaz, Peter Robinson</td>
+<td class="text-left">PODC</td>
+<td class="text-left">[<a href="https://arxiv.org/abs/1705.07861">arxiv</a>]</td>
 </tr>
 </tbody>
 </table>
 <p>
- <hr class="col-xs-12"><br />
+ <hr class="col-xs-12"><br >
 </p>
 </div>
 </div>
-<div id="outline-container-org75c91a1" class="outline-2">
-<h2 id="org75c91a1">Other Publications</h2>
-<div class="outline-text-2" id="text-org75c91a1">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table table-bordered table-hover table-condensed">
+</div>
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Journal Papers</h2>
+<div class="outline-text-2" id="text-">
+<table class="table table-bordered table-hover table-condensed">
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
 
-<col  class="org-left" />
+<col  class="left">
+
+<col  class="left">
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Title</th>
-<th scope="col" class="org-left">Authors</th>
-<th scope="col" class="org-left">Journal</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Journal</th>
+<th scope="col" class="text-left">Year</th>
+<th scope="col" class="text-left">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">On the Role of Congestion in Distributed Complexity</td>
-<td class="org-left">Shreyas Pai</td>
-<td class="org-left">PhD Thesis 2021</td>
-<td class="org-left">[<a href="https://www.proquest.com/openview/43048c3b21a03bc5acf7704e59dab30c">paper</a>]</td>
+<td class="text-left">Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases</td>
+<td class="text-left">Hankyu Jang, Shreyas Pai, Bijaya Adhikari, Sriram V. Pemmaraju</td>
+<td class="text-left">KAIS</td>
+<td class="text-left">2022</td>
+<td class="text-left">[<a href="https://doi.org/10.1007/s10115-022-01748-8">paper</a>] [<a href="https://github.com/HankyuJang/directed-PCST-asymptomatic-detection">code</a>]</td>
+</tr>
+
+<tr>
+<td class="text-left">Near Optimal Clustering in the \(k\)-machine model</td>
+<td class="text-left">Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju</td>
+<td class="text-left">TCS</td>
+<td class="text-left">2021</td>
+<td class="text-left">[<a href="https://doi.org/10.1016/j.tcs.2021.11.026">paper</a>]</td>
 </tr>
 </tbody>
 </table>
 <p>
- <hr class="col-xs-12"><br />
+ <hr class="col-xs-12"><br >
 </p>
 </div>
 </div>
-<div id="outline-container-orgd4284ca" class="outline-2">
-<h2 id="orgd4284ca">Teaching</h2>
-<div class="outline-text-2" id="text-orgd4284ca">
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Other Publications</h2>
+<div class="outline-text-2" id="text-">
+<table class="table table-bordered table-hover table-condensed">
+
+
+<colgroup>
+<col  class="left">
+
+<col  class="left">
+
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="text-left">Title</th>
+<th scope="col" class="text-left">Authors</th>
+<th scope="col" class="text-left">Journal</th>
+<th scope="col" class="text-left">Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-left">On the Role of Congestion in Distributed Complexity</td>
+<td class="text-left">Shreyas Pai</td>
+<td class="text-left">PhD Thesis 2021</td>
+<td class="text-left">[<a href="https://www.proquest.com/openview/43048c3b21a03bc5acf7704e59dab30c">paper</a>]</td>
+</tr>
+</tbody>
+</table>
+<p>
+ <hr class="col-xs-12"><br >
+</p>
+</div>
+</div>
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Teaching</h2>
+<div class="outline-text-2" id="text-">
 <ul class="org-ul">
-<li>Fall 2021: TA for CS-E3190 Principles of Algorithmic Techniques<br /></li>
-<li>Spring 2020: TA for CS:4330 Theory of Computation<br /></li>
-<li>Spring 2017: Instructor for <a href="http://homepage.cs.uiowa.edu/~sriram/3330/spring17/">CS:3330 Algorithms, Section 2</a><br /></li>
-<li>Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals<br /></li>
+<li>Fall 2021: TA for CS-E3190 Principles of Algorithmic Techniques<br >
+</li>
+<li>Spring 2020: TA for CS:4330 Theory of Computation<br >
+</li>
+<li>Spring 2017: Instructor for <a href="http://homepage.cs.uiowa.edu/~sriram/3330/spring17/">CS:3330 Algorithms, Section 2</a><br >
+</li>
+<li>Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals<br >
+</li>
 </ul>
 <p>
- <hr class="col-xs-12"><br />
+ <hr class="col-xs-12"><br >
 </p>
 </div>
 </div>
-<div id="outline-container-orgf286803" class="outline-2">
-<h2 id="orgf286803">Contact</h2>
-<div class="outline-text-2" id="text-orgf286803">
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Contact</h2>
+<div class="outline-text-2" id="text-">
 <p>
-Email: shreyas.pai@aalto.fi<br />
-Office: B313, Konemiehentie 2, 02150 Espoo, Finland<br />
+Email: shreyas.pai@aalto.fi<br >
+Office: B313, Konemiehentie 2, 02150 Espoo, Finland<br >
 </p>
 
 <p>
- <a href="https://savesoil.org"><br />
+ <a href="https://savesoil.org"><br >
 </p>
-<p width="300px" alt="savesoil.org" title="Save Soil">
-<img src="./img/savesoil.png" alt="savesoil.org" width="300px" title="Save Soil" /><br />
- </a><br />
+<p>
+<img src="./img/savesoil.png" class="img-responsive" alt="savesoil.org" width="300px" title="Save Soil"><br >
+ </a><br >
 </p>
 </div>
 </div>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="author">Author: Shreyas Pai</p>
+<p class="date">Created: 2023-03-01 Wed 16:06</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="http://orgmode.org">Org-mode</a> 9.6)</p>
 </div>
-<div id="postamble" class="status">
-<p class="author">Author: Shreyas Pai</p>
-<p class="date">Created: 2023-03-01 Wed 16:03</p>
-<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
+</footer>
 </body>
 </html>
