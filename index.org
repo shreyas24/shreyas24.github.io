@@ -52,13 +52,15 @@ Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][
 
 *** 2023
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
-|----------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------+---------|
-| Title                                              | Authors                                                                                               | Conference | Links   |
-| <30>                                               | <20>                                                                                                  | <10>       | <10>    |
-|----------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------+---------|
-| Fast Dynamic Programming in Trees in the MPC Model | Chetan Gupta, Rustam Latypov, Yannic Maus, Shreyas Pai, Simo Särkkä, Jan Studený, Jukka Suomela, Jara Uitto, Hossein Vahidi | SPAA       | [[[https://arxiv.org/abs/2305.03693][arxiv]]] |
-| Sinkless Orientation Made Simple                   | Alkida Balliu, Janne H. Korhonen, Fabian Kuhn, Henrik Lievonen, Dennis Olivetti, Shreyas Pai, Ami Paz, Joel Rybicki, Stefan Schmid, Jan Studený, Jukka Suomela, Jara Uitto | SOSA       | [[[http://arxiv.org/abs/2108.02655][arxiv]]] |
-|----------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------+---------|
+|--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------+---------------|
+| Title                                                                                | Authors                                                                                           | Conference | Links         |
+| <30>                                                                                 | <20>                                                                                              | <10>       | <10>          |
+|--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------+---------------|
+| Conditionally Optimal Parallel Coloring of Forests                                   | Christoph Grunau, Rustam Latypov, Yannic Maus, Shreyas Pai, Jara Uitto                            | DISC       | to appear     |
+| Time and Space Optimal Massively Parallel Algorithm for the \(2\)-Ruling Set Problem | Melanie Cambus, Fabian Kuhn, Etna Lindy, Shreyas Pai, Jara Uitto                                  | DISC       | [[[https://arxiv.org/abs/2306.00432][arxiv]]] |
+| Fast Dynamic Programming in Trees in the MPC Model                                   | Chetan Gupta, Rustam Latypov, Yannic Maus, Shreyas Pai, Simo Särkkä, Jan Studený, Jukka Suomela, Jara Uitto, Hossein Vahidi | SPAA       | [[[https://arxiv.org/abs/2305.03693][arxiv]]]       |
+| Sinkless Orientation Made Simple                                                     | Alkida Balliu, Janne H. Korhonen, Fabian Kuhn, Henrik Lievonen, Dennis Olivetti, Shreyas Pai, Ami Paz, Joel Rybicki, Stefan Schmid, Jan Studený, Jukka Suomela, Jara Uitto | SOSA       | [[[http://arxiv.org/abs/2108.02655][arxiv]]]       |
+|--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------+---------------|
 *** 2022
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |---------------------------------------------------------------------------------+--------------------------------------------+------------+---------|
