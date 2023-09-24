@@ -42,7 +42,7 @@ I received my PhD in Computer Science at [[http://uiowa.edu][The University of I
 
 My research interests are primarily in Theory of Distributed and Parallel Computing, more specifically in Distributed Graph Algorithms and Algorithms for Large Data. I am also more generally interested in topics in Theoretical Computer Science like Communication Complexity and Combinatorial Optimization.
 
-During my PhD, I worked as a research assistant in the [[https://vinci.cs.uiowa.edu/compepi/][Computational Epidemiology Group]] where we try to understand and model the spread of Hospital Acquired Infections (see [[https://www.cdc.gov/hai/research/MIND-Healthcare.html][here]] for more information).
+During my PhD, I worked as a research assistant in the [[https://pisa.cs.uiowa.edu/compepi/][Computational Epidemiology Group]] where we try to understand and model the spread of Hospital Acquired Infections (see [[https://www.cdc.gov/hai/research/MIND-Healthcare.html][here]] for more information).
 
 Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And here are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
