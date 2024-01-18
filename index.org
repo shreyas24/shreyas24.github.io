@@ -44,7 +44,8 @@ My research interests are primarily in Theory of Distributed and Parallel Comput
 
 During my PhD, I worked as a research assistant in the [[https://pisa.cs.uiowa.edu/compepi/][Computational Epidemiology Group]] where we try to understand and model the spread of Hospital Acquired Infections (see [[https://www.cdc.gov/hai/research/MIND-Healthcare.html][here]] for more information).
 
-Here is my [[./cv.pdf][CV]]. My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And here are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
+# Here is my [[./cv.pdf][CV]].
+My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And here are links to my [[https://arxiv.org/a/pai_s_2.html][arXiv]] and [[https://dblp.org/pers/hd/p/Pai:Shreyas][dblp]] pages.
 
 @@html: <hr class="col-xs-12">@@
 
