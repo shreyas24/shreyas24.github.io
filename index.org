@@ -37,8 +37,10 @@ table {
 }
 </style>
 @@
-I am an [[https://www.hiit.fi/][HIIT postdoctoral fellow]] at [[https://aalto.fi/en][Aalto University]] hosted by Prof. [[https://users.aalto.fi/~uittoj3/][Jara Uitto]].
-I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram V. Pemmaraju]] in Spring 2021.
+
+I am an Assistant Professor in the [[https://cse.iitm.ac.in/][Department of Computer Science and Engineering]] at [[https://iitm.ac.in/][Indian Institute of Technology Madras]] in Chennai.
+
+I received my PhD in Computer Science at [[http://uiowa.edu][The University of Iowa]] under the supervision of Prof. [[http://homepage.cs.uiowa.edu/~sriram][Sriram V. Pemmaraju]] in May 2021. Afterwards I was an [[https://www.hiit.fi/][HIIT postdoctoral fellow]] at [[https://aalto.fi/en][Aalto University]] hosted by Prof. [[https://users.aalto.fi/~uittoj3/][Jara Uitto]] till March 2024.
 
 My research interests are primarily in Theory of Distributed and Parallel Computing, more specifically in Distributed Graph Algorithms and Algorithms for Large Data. I am also more generally interested in topics in Theoretical Computer Science like Communication Complexity and Combinatorial Optimization.
 
@@ -53,13 +55,14 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 
 *** 2024
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
-|---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------+---------|
-| Title                                                                                 | Authors                                                                              | Conference | Links   |
-| <30>                                                                                  | <20>                                                                                 | <10>       | <10>    |
-|---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------+---------|
-| The Message Complexity of Distributed Graph Optimization                              | Fabien Dufoulon, Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Peter Robinson | ITCS       | [[[https://arxiv.org/abs/2311.14811][arxiv]]] |
-| A \((3+\varepsilon)\)-Approximate Correlation Clustering Algorithm in Dynamic Streams | Melanie Cambus, Fabian Kuhn, Etna Lindy, Shreyas Pai, Jara Uitto                     | SODA       | [[[https://arxiv.org/abs/2205.07593][arxiv]]] |
-|---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------+---------|
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
+| Title                                                                            | Authors                                                                          | Conference | Links   |
+| <30>                                                                             | <20>                                                                             | <10>       | <10>    |
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
+| Adaptive Massively Parallel Coloring in Sparse Graphs                            | Rustam Latypov, Yannic Maus, Shreyas Pai, Jara Uitto                             | PODC       | [[[https://arxiv.org/abs/2402.13755][arxiv]]] |
+| The Message Complexity of Distributed Graph Optimization                         | Fabien Dufoulon, Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Peter Robinson | ITCS       | [[[https://arxiv.org/abs/2311.14811][arxiv]]] |
+| A \((3+\varepsilon)\)-Approximate Correlation Clustering Algorithm in Dynamic Streams | Melanie Cambus, Fabian Kuhn, Etna Lindy, Shreyas Pai, Jara Uitto                 | SODA       | [[[https://arxiv.org/abs/2205.07593][arxiv]]] |
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
 *** 2023
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------+---------------|
@@ -154,8 +157,10 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 - Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
 @@html: <hr class="col-xs-12">@@
 ** Contact
-   Email: shreyas.pai@aalto.fi
-   Office: B313, Konemiehentie 2, 02150 Espoo, Finland
+   Email: shreyas at cse dot (append IITM's website URL to complete the email)
+   Office: SSB 203, Department of Computer Science and Engineering,
+   Indian Institute of Technology Madras, Chennai, Tamil Nadu 600036, India.
+   Phone: +91-44-2257-4395
 
 @@html: <a href="https://savesoil.org">@@
 #+ATTR_HTML: :width 300px :alt savesoil.org :title Save Soil
