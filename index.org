@@ -157,7 +157,7 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 - Fall 2016: TA for CS:1210 Computer Science 1: Fundamentals
 @@html: <hr class="col-xs-12">@@
 ** Contact
-   Email: shreyas at cse dot (append IITM's website URL to complete the email)
+   Email: shreyas at cse dot (append the [[https://iitm.ac.in][IITM website URL]] to complete the email)
    Office: SSB 203, Department of Computer Science and Engineering,
    Indian Institute of Technology Madras, Chennai, Tamil Nadu 600036, India.
    Phone: +91-44-2257-4395
