@@ -109,6 +109,14 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 @@html: <hr class="col-xs-12">@@
 * Conference Papers
 
+** 2025
+#+ATTR_HTML: :class table table-bordered table-hover table-condensed
+|-----------------------------------+------------------------------------------------------------+------------+-----------|
+| Title                             | Authors                                                    | Conference | Links     |
+| <30>                              | <20>                                                       | <10>       | <10>      |
+|-----------------------------------+------------------------------------------------------------+------------+-----------|
+| Faster Set Cover in the MPC Model | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel | ICDCN      | to appear |
+|-----------------------------------+------------------------------------------------------------+------------+-----------|
 ** 2024
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
@@ -210,8 +218,10 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 :PROPERTIES:
 :CUSTOM_ID: teaching
 :END:
-I'll be teaching CS6851 Distributed Algorithms in the 2024 odd (fall) semester.
+I'll be teaching [[https://sites.google.com/cse.iitm.ac.in/sublinear2025/home][CS6025 Sublinear Algorithms]] in the 2025 even semester.
 ** Past Courses
+- IIT Madras
+  - [[https://sites.google.com/cse.iitm.ac.in/da2024/][CS6851: Distributed Algorithms]] Jul-Nov 2024
 - Aalto University
   - Fall 2023: TA for [[https://mycourses.aalto.fi/course/view.php?id=41030][CS-E4500 Randomized Algorithms]]
   - Fall 2021/22: TA for [[https://mycourses.aalto.fi/course/view.php?id=37062][CS-E3190 Principles of Algorithmic Techniques]] (use guest access if asked to login)
