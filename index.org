@@ -94,7 +94,7 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 
 @@html: <hr class="col-xs-12">@@
 
-* Manuscripts :ATTACH:
+* COMMENT Manuscripts :ATTACH:
 :PROPERTIES:
 :CUSTOM_ID: publications
 :ID:       2065d980-6d86-41fe-a240-58c7d7355361
@@ -104,20 +104,20 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 | Title                                                                            | Authors                                                                          | Links   |
 | <30>                                                                             | <50>                                                                             | <10>    |
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
-| Online Locality meets Distributed Quantum Computation                            | Amirreza Akbari, Xavier Coiteux-Roy, Francesco d'Amore, François Le Gall, Henrik Lievonen, Darya Melnyk, Augusto Modanese, Shreyas Pai, Marc-Olivier Renou, Václav Rozhoň, Jukka Suomela | [[[https://arxiv.org/abs/2403.01903][arxiv]]] |
-| Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time | Vladimir Braverman, Prathamesh Dharangutte, Shreyas Pai, Vihan Shah, Chen Wang   | [[[https://arxiv.org/abs/2411.09979][arxiv]]] |
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
 @@html: <hr class="col-xs-12">@@
 * Conference Papers
 
 ** 2025
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
-|--------------------------------------------------------------------------------+------------------------------------------------------------+------------+---------|
-| Title                                                                          | Authors                                                    | Conference | Links   |
-| <30>                                                                           | <20>                                                       | <10>       | <10>    |
-|--------------------------------------------------------------------------------+------------------------------------------------------------+------------+---------|
-| Faster Set Cover in the MPC Model               | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel | ICDCN @@html:<br>@@ *Best Paper Award*     | [[[https://doi.org/10.1145/3700838.3700861][paper]]] |
-|--------------------------------------------------------------------------------+------------------------------------------------------------+------------+---------|
+|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
+| Title                                                                                    | Authors                                                                                        | Conference                             | Links   |
+| <30>                                                                                     | <20>                                                                                           | <10>                                   | <10>    |
+|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
+| Online Locality meets Distributed Quantum Computation                                    | Amirreza Akbari, Xavier Coiteux-Roy, Francesco d'Amore, François Le Gall, Henrik Lievonen, Darya Melnyk, Augusto Modanese, Shreyas Pai, Marc-Olivier Renou, Václav Rozhoň, Jukka Suomela | STOC                                   | [[[https://arxiv.org/abs/2403.01903][arxiv]]] |
+| Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time | Vladimir Braverman, Prathamesh Dharangutte, Shreyas Pai, Vihan Shah, Chen Wang                 | AISTATS                                | [[[https://arxiv.org/abs/2411.09979][arxiv]]] |
+| Faster Set Cover in the MPC Model                                                        | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel                                     | ICDCN @@html:<br>@@ *Best Paper Award* | [[[https://doi.org/10.1145/3700838.3700861][paper]]] |
+|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
 ** 2024
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
