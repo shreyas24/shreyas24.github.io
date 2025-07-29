@@ -110,14 +110,15 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 
 ** 2025
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
-|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
-| Title                                                                                    | Authors                                                                                        | Conference                             | Links   |
-| <30>                                                                                     | <20>                                                                                           | <10>                                   | <10>    |
-|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
-| Online Locality meets Distributed Quantum Computation                                    | Amirreza Akbari, Xavier Coiteux-Roy, Francesco d'Amore, François Le Gall, Henrik Lievonen, Darya Melnyk, Augusto Modanese, Shreyas Pai, Marc-Olivier Renou, Václav Rozhoň, Jukka Suomela | STOC                                   | [[[https://arxiv.org/abs/2403.01903][arxiv]]] |
-| Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time | Vladimir Braverman, Prathamesh Dharangutte, Shreyas Pai, Vihan Shah, Chen Wang                 | AISTATS                                | [[[https://arxiv.org/abs/2411.09979][arxiv]]] |
-| Faster Set Cover in the MPC Model                                                        | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel                                     | ICDCN @@html:<br>@@ *Best Paper Award* | [[[https://doi.org/10.1145/3700838.3700861][paper]]] |
-|------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+----------------------------------------+---------|
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------------+---------|
+| Title                                                                            | Authors                                                                          | Conference                             | Links   |
+| <30>                                                                             | <20>                                                                             | <10>                                   | <10>    |
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------------+---------|
+| Message Optimality and Message-Time Trade-offs for APSP and Beyond               | Fabien Dufoulon, Shreyas Pai, Gopal Pandurangan, Sriram V. Pemmaraju, Peter Robinson | PODC                                   | [[[https://arxiv.org/abs/2504.21781][arxiv]]] |
+| Online Locality meets Distributed Quantum Computation                            | Amirreza Akbari, Xavier Coiteux-Roy, Francesco d'Amore, François Le Gall, Henrik Lievonen, Darya Melnyk, Augusto Modanese, Shreyas Pai, Marc-Olivier Renou, Václav Rozhoň, Jukka Suomela | STOC                                   | [[[https://arxiv.org/abs/2403.01903][arxiv]]] |
+| Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time | Vladimir Braverman, Prathamesh Dharangutte, Shreyas Pai, Vihan Shah, Chen Wang   | AISTATS                                | [[[https://arxiv.org/abs/2411.09979][arxiv]]] |
+| Faster Set Cover in the MPC Model                                                | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel                       | ICDCN @@html:<br>@@ *Best Paper Award* | [[[https://doi.org/10.1145/3700838.3700861][paper]]] |
+|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------------+---------|
 ** 2024
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------+---------|
@@ -219,10 +220,11 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 :PROPERTIES:
 :CUSTOM_ID: teaching
 :END:
-I'll be teaching [[https://sites.google.com/cse.iitm.ac.in/sublinear2025/home][CS6025 Sublinear Algorithms]] in the 2025 even semester.
+I am teaching  [[https://sites.google.com/cse.iitm.ac.in/da2025/][CS6851: Distributed Algorithms]] in the 2025 odd semester.
 ** Past Courses
 - IIT Madras
-  - [[https://sites.google.com/cse.iitm.ac.in/da2024/][CS6851: Distributed Algorithms]] Jul-Nov 2024
+  - Jan-May 2025: [[https://sites.google.com/cse.iitm.ac.in/sublinear2025/home][CS6025 Sublinear Algoritms]]
+  - Jul-Nov 2024: [[https://sites.google.com/cse.iitm.ac.in/da2024/][CS6851 Distributed Algorithms]]
 - Aalto University
   - Fall 2023: TA for [[https://mycourses.aalto.fi/course/view.php?id=41030][CS-E4500 Randomized Algorithms]]
   - Fall 2021/22: TA for [[https://mycourses.aalto.fi/course/view.php?id=37062][CS-E3190 Principles of Algorithmic Techniques]] (use guest access if asked to login)
