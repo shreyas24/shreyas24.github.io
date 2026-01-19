@@ -27,6 +27,7 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
+            <li><a href="#distra">Group</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#teaching">Teaching</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -94,11 +95,18 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 
 @@html: <hr class="col-xs-12">@@
 
-* COMMENT Manuscripts :ATTACH:
+* Distributed Algorithms Group
 :PROPERTIES:
-:CUSTOM_ID: publications
-:ID:       2065d980-6d86-41fe-a240-58c7d7355361
+:CUSTOM_ID: distra
 :END:
+Our group is part of the Distributed Trust and Algorithms (DisTrA) Lab and the [[http://cystar.iitm.ac.in/][Center for Cybersecurity, Trust, and Reliability (CyStar)]] at IIT Madras.
+** Current Members
+1. Nithin Salvemula (PhD)
+** Past Members
+1. Nandini B (Intern 2025)
+2. Anwesha Banerjee (Intern 2025)
+@@html: <hr class="col-xs-12">@@
+* COMMENT Manuscripts :ATTACH:
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
 | Title                                                                            | Authors                                                                          | Links   |
@@ -107,6 +115,10 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
 @@html: <hr class="col-xs-12">@@
 * Conference Papers
+:PROPERTIES:
+:CUSTOM_ID: publications
+:ID:       2065d980-6d86-41fe-a240-58c7d7355361
+:END:
 
 ** 2025
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
@@ -220,9 +232,10 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 :PROPERTIES:
 :CUSTOM_ID: teaching
 :END:
-I am teaching  [[https://sites.google.com/cse.iitm.ac.in/da2025/][CS6851: Distributed Algorithms]] in the 2025 odd semester.
+I am teaching [[https://sites.google.com/cse.iitm.ac.in/randalgs2026/home][CS6170: Randomized Algorithms]] in the 2026 even semester.
 ** Past Courses
 - IIT Madras
+  - Jul-Nov 2025: [[https://sites.google.com/cse.iitm.ac.in/da2025/][CS6851: Distributed Algorithms]]
   - Jan-May 2025: [[https://sites.google.com/cse.iitm.ac.in/sublinear2025/home][CS6025 Sublinear Algoritms]]
   - Jul-Nov 2024: [[https://sites.google.com/cse.iitm.ac.in/da2024/][CS6851 Distributed Algorithms]]
 - Aalto University
