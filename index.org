@@ -101,18 +101,18 @@ My ORCID: [[https://orcid.org/0000-0003-2409-7807][0000-0003-2409-7807]]. And he
 :END:
 Our group is part of the Distributed Trust and Algorithms (DisTrA) Lab and the [[http://cystar.iitm.ac.in/][Center for Cybersecurity, Trust, and Reliability (CyStar)]] at IIT Madras.
 ** Current Members
-1. Nithin Salvemula (PhD)
+1. Nithin Salevemula (PhD)
 ** Past Members
 1. Nandini B (Intern 2025)
 2. Anwesha Banerjee (Intern 2025)
 @@html: <hr class="col-xs-12">@@
 * COMMENT Manuscripts :ATTACH:
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
-|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
-| Title                                                                            | Authors                                                                          | Links   |
-| <30>                                                                             | <50>                                                                             | <10>    |
-|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
-|----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------|
+|-------+---------+-------|
+| Title | Authors | Links |
+| <30>  | <20>    | <10>  |
+|-------+---------+-------|
+|-------+---------+-------|
 @@html: <hr class="col-xs-12">@@
 * Conference Papers
 :PROPERTIES:
@@ -120,6 +120,14 @@ Our group is part of the Distributed Trust and Algorithms (DisTrA) Lab and the [
 :ID:       2065d980-6d86-41fe-a240-58c7d7355361
 :END:
 
+** 2026
+#+ATTR_HTML: :class table table-bordered table-hover table-condensed
+|------------------------------------------------------------+--------------------------------+------------+---------|
+| Title                                                      | Authors                        | Conference | Links   |
+| <30>                                                       | <20>                           | <10>       | <10>    |
+|------------------------------------------------------------+--------------------------------+------------+---------|
+| Distributed MIS Algorithms for Rational Agents using Games | Nithin Salevemula, Shreyas Pai | SIROCCO    | [[[https://arxiv.org/abs/2511.16533][arxiv]]] |
+|------------------------------------------------------------+--------------------------------+------------+---------|
 ** 2025
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------------+---------|
