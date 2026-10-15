@@ -120,12 +120,21 @@ Our group is part of the Distributed Trust and Algorithms (DisTrA) Lab and the [
 :ID:       2065d980-6d86-41fe-a240-58c7d7355361
 :END:
 
+** 2027
+#+ATTR_HTML: :class table table-bordered table-hover table-condensed
+|--------------------------------------------------+---------------------------------+------------+---------|
+| Title                                            | Authors                         | Conference | Links   |
+| <30>                                             | <20>                            | <10>       | <10>    |
+|--------------------------------------------------+---------------------------------+------------+---------|
+| Improved Message Complexity for Fair Leader Election | Nithin Salevemula, Shreyas Pai | ICDCN      | to appear |
+|--------------------------------------------------+---------------------------------+------------+---------|
 ** 2026
 #+ATTR_HTML: :class table table-bordered table-hover table-condensed
 |------------------------------------------------------------+--------------------------------+------------+---------|
 | Title                                                      | Authors                        | Conference | Links   |
 | <30>                                                       | <20>                           | <10>       | <10>    |
 |------------------------------------------------------------+--------------------------------+------------+---------|
+| Approximating Minimum Dominating Set with Few Awake Rounds | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju | DISC | to appear |
 | Distributed MIS Algorithms for Rational Agents using Games | Nithin Salevemula, Shreyas Pai | SIROCCO    | [[[https://arxiv.org/abs/2511.16533][arxiv]]] |
 |------------------------------------------------------------+--------------------------------+------------+---------|
 ** 2025
@@ -223,6 +232,7 @@ Our group is part of the Distributed Trust and Algorithms (DisTrA) Lab and the [
 | Title                                                                   | Authors                                                               | Journal   | Links          |
 | <30>                                                                    | <20>                                                                  | <6>       | <10>           |
 |-------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------+----------------|
+| Faster set cover in the MPC model                                       | Hongyan Ji, Shreyas Pai, Sriram V. Pemmaraju, Joshua Sobel            | TCS 2026  | [[[https://doi.org/10.1016/j.tcs.2026.116238][paper]]] |
 | Risk-aware Temporal Cascade Reconstruction to Detect Asymptomatic Cases | Hankyu Jang, Shreyas Pai, Bijaya Adhikari, Sriram V. Pemmaraju        | KAIS 2022 | [[[https://doi.org/10.1007/s10115-022-01748-8][paper]]] [[[https://github.com/HankyuJang/directed-PCST-asymptomatic-detection][code]]] |
 | Near Optimal Clustering in the \(k\)-machine model                      | Sayan Bandyapadhyay, Tanmay Inamdar, Shreyas Pai, Sriram V. Pemmaraju | TCS 2021  | [[[https://doi.org/10.1016/j.tcs.2021.11.026][paper]]]        |
 |-------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------+----------------|
